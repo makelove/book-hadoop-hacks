@@ -1,0 +1,6 @@
+p67
+和从Hadoop的主服务器向从属服务器拷贝配置文件一样，执行Hadoop集群外的操作，也必须拷贝配置文件。
+请将3个文件拷贝到，想从外部操作的客户端的$HADOOP_HOME/conf目录中。
+core-site.xml
+hdfs-site.xml
+mapred-site.xml
